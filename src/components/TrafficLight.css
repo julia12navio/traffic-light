@@ -1,0 +1,44 @@
+.fullscreen-center {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0f172a;
+}
+
+.layout-row{
+    display: flex;
+    gap: 24px;
+}
+
+.trafficlight-box {
+    background: #1f2937;
+    padding: 16px;
+    border-radius: 20px;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+.buttons-box {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.btns {
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: none;
+    background: #1f2937;
+    color: #e5e7eb;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btns:hover {
+    background: #4b5563;
+}
