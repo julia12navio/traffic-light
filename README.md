@@ -1,13 +1,46 @@
-# React + Vite
+# 🚦 Semáforo en React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Un pequeño proyecto en **React** que simula un semáforo interactivo. Permite encender luces haciendo clic, cambiar el color de forma aleatoria o alternada, añadir y eliminar colores extra.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Características
+- Semáforo con luces **roja, amarilla y verde**.  
+- Al hacer clic en una luz, esta se enciende y las demás se apagan.  
+- Estado interno manejado con **React Hooks (`useState`)**.  
+- Botón para **cambiar el color aleatoriamente**.  
+- Botón para **añadir un color extra** y opción de eliminarlo.  
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologías utilizadas
+- [React](https://reactjs.org/) (con Vite)  
+- JavaScript 
+- CSS3  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# traffic-light
+---
+
+## ▶️ Instalación
+
+1. Clona este repositorio:
+
+```bash
+git clone https://github.com/julia12navio/traffic-light.git
+```
+
+2. Entra en el directorio del proyecto:
+
+```bash
+cd traffic-light
+```
+
+3. Instala las dependencias:
+   
+```bash
+npm install
+```
+
+4.  Ejecuta el servidor de desarrollo:
+
+```bash
+npm run dev
+```
